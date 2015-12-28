@@ -1,0 +1,132 @@
+html,
+body {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.friend_list {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 3px;
+    background-color: #808080;
+    border: 2px solid #000;
+}
+
+.friend_list_item {
+    display: block;
+    height: 40px;
+    margin: 5px;
+    background-color: #fff
+}
+
+.friend_list_footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+}
+
+.chat_friends {
+    border: 1px solid #ADD8E6;
+    height: 20px;
+    text-align: center;
+}
+
+.chat_box {
+    position: absolute;
+    bottom: 0px;
+    right: 250px;
+    height: 250px;
+    width: 210px;
+    background-color: #808080;
+    border: 2px solid #000;
+}
+
+.chat_box_header {
+    height: 30px;
+    border: 1px solid #ADD8E6;
+    margin: 2px;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.chat_box_footer {
+    height: 30px;
+    border: 1px solid #ADD8E6;
+    margin: 11px;
+    padding: 2px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.chat_box_menu {
+    float: right;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.chat_pro_pic {
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.chat_friend_name {
+    text-align: center;
+}
+
+.chat_box_msg {
+    background-color: white;
+    height: 150px;
+    margin: 10px 0px;
+}
+
+.chat_indicator {
+    width: 15px;
+    height: 15px;
+}
+
+.msg_received {
+    width: 150px;
+    height: 50px;
+    margin: 5px 10px 5px 0px;
+    border: 2px dotted #000;
+}
+
+.msg_sent {
+    float: right;
+    width: 150px;
+    height: 50px;
+    border: 2px dotted #000;
+}
+
+textarea {
+    height: 15px;
+    width: 120px;
+    margin: -3px;
+}
+
+button {
+    font-size: 10px;
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    border: 0px solid #000;
+}
+
+.friend_search {
+    width: 10px;
+    height: 10px;
+}
+
+.friend_list_textarea {
+    width: 200px;
+    margin-left: 10px;
+}
